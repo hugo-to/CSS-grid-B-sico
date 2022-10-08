@@ -6,12 +6,16 @@ body{
     border: 5px solid #d795e3;
     background-color: #eea9ee7c;
     display: grid;
-    grid-template-columns: [p] 50px [g] 100px [r] 200px;
-    grid-template-rows: 400px 50px;
-    grid-gap: 15px;
+    /* grid-template-columns: [p] 60px [g] 120px [r] 180px; */
+    grid-template-rows: 200px 200px;
+    grid-auto-columns: 80px;
+    /* row-gap: 18px;
+    column-gap: 24px; */
+    gap: 32px;
+    /* grid-gap: 24px; */
     grid-auto-flow: column;
-    grid-auto-columns: 50px;
-    justify-content: space-between;
+    /* grid-auto-columns: 50px; */
+    /* justify-content: space-between; */
     /* justify-items: stretch; */
     /* align-items:flex-start; */
   }
