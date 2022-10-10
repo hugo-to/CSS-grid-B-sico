@@ -1,0 +1,29 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.contenedor {
+  border: 5px solid #d795e3;
+  background-color: #eea9ee7c;
+  display: grid;
+  /* grid-template-columns: [p] 60px [g] 120px [r] 180px; */
+  grid-template-columns: 200px 200px 200px;
+  grid-auto-rows: 200px;
+
+  gap: 32px;
+
+  justify-items: end;
+  align-items:flex-start;
+  height: 100vh;
+}
+
+.item {
+  border: 5px solid #00bcd4;
+  font-size: 2rem;
+}
+
+
+.item-5{
+    justify-self: flex-start;
+    align-self: flex-end;
+}
