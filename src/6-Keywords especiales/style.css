@@ -1,0 +1,26 @@
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 1fr 4fr max-content min-content;
+}
+
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
+
+
+/* 
+  CSS tiene varias palabras claves que suelen resultar muy útiles al momento de crear código. Veamos algunas de ellas:
+
+  Palabras clave especiales para creación de código
+  fr : es una unidad relativamente nueva de medida especial de CSS Grid para darle ancho o alto a filas y columnas. 1fr representa una fracción del total de columnas o filas.
+  min-content : ajusta el ancho de la celda lo mínimo posible sin romper su contenido.
+  max-content : ajusta el ancho de la celda lo máximo posible para mostrar su contenido.
+  auto-fill : logra que la grilla ocupe el 100% del espacio que tiene. Agrega columnas “fantasma” que rellenan el espacio sobrante del contenedor.
+  auto-fit : ensancha las columnas para que ocupen todo el espacio del contenedor.
+  auto-fill y auto-fit: ayudan a la grilla a ocupar el 100% del espacio disponible.
+  Cómo funcionan las palabras clave especiales
+  Veamos cómo funcionan estas keywords directamente en el código:
+  Primero, creamos un index.html con cuatro contenedores. Llevando el 3 y 4 distintas mezclas y espaciados. */
